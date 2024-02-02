@@ -1,10 +1,24 @@
-const Card = ({ person }) => {
+interface Person {
+  photo: string;
+  name: string;
+  information: string;
+  link: string;
+  facebook: string;
+  instagram: string;
+  mail: string;
+  age: number;
+}
+
+const Card = ({ person }: { person: Person }) => {
   return (
     <div className="card justify-content-md-center" style={{ width: "25rem" }}>
       <img src={person.photo} className="card-img-top mg-fluid" alt="person" />
       <div className="card-body">
         <h5 className="card-title">{person.name}</h5>
-        <p className="card-text">{person.inforationen}</p>
+
+        <p className="card-text">
+          ich bin {person.age} Jahre alt und {person.information}
+        </p>
         <p className="card-text ">E-Mail Address: {person.mail} </p>
 
         <div className="card-body">
