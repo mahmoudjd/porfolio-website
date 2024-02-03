@@ -17,14 +17,15 @@ const ProjectList = ({ projects }: Props) => {
           <div className="col-md-6" key={index}>
             <div className="card-mb-4">
               <div
-                className="card-body border"
+                className="card-body p-2 border bg-success bg-opacity-10 rounded shadow"
                 style={{
                   maxWidth: "25rem",
-                  padding: "5px",
-                  borderRadius: "5px",
                 }}
               >
-                <h4 className="card-title"> {project.title}</h4>
+                <h4 className="card-title text-danger text-opacity-50">
+                  {" "}
+                  {project.title}
+                </h4>
                 <p className="card-text">{project.description}</p>
                 <p className="card-text">
                   <small className="text-muted">

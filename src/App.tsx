@@ -11,7 +11,7 @@ function App() {
   const person = {
     name: "Mahmoud Al Jarad",
     age: 29,
-    job: "Software Developer or Web Developer werde ich sein",
+    job: "Software Developer & Web Developer werde ich sein",
     photo: "./myfoto.jpeg",
     uni: "Hochschule Trier",
     link: "https://github.com/mahmoudjd",
@@ -27,7 +27,7 @@ function App() {
       title: "MJD&MZ-Planer",
       description:
         "Diese Webanwendung wurde im Rahmen eines Projekts zur Veranstaltungsplanung entwickelt." +
-        "Sie ermöglicht die Verwaltung von Gästelisten und die Sitzplatzplanung für Veranstaltungen wie Hochzeiten. Die Anwendung besteht aus einem Node.js-Express-Server, der die notwendigen Ressourcen persistent speichert und über eine REST-konforme HTTP-Schnittstelle zur Verfügung stellt.",
+        " Sie ermöglicht die Verwaltung von Gästelisten und die Sitzplatzplanung für Veranstaltungen wie Hochzeiten. Die Anwendung besteht aus einem Node.js-Express-Server, der die notwendigen Ressourcen persistent speichert und über eine REST-konforme HTTP-Schnittstelle zur Verfügung stellt.",
       technologies: [
         "Node.Js",
         "JavaScript",
@@ -42,8 +42,8 @@ function App() {
     {
       title: "Portfolio",
       description:
-        "Diese Anwendung habe ich gemacht, um React mit Bootstrap zu lernen." +
-        "In diesem Projekt habe ich Informationen über mich gelegt.",
+        "Diese Anwendung habe ich gemacht, um React mit Bootstrap zu lernen und mein Kenntnis im Bereich Webentwicklung zu vertiefen. " +
+        "In diesem Projekt habe ich Informationen über mich gelegt. Innerhalb meines Lernen von React und Bootstrap aktualisiere ich dieses Projekt.",
       technologies: [
         "React.Js",
         "JavaScript",

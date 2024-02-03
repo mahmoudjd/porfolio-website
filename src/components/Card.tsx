@@ -11,9 +11,12 @@ interface Person {
 
 const Card = ({ person }: { person: Person }) => {
   return (
-    <div className="card justify-content-md-center" style={{ width: "25rem" }}>
+    <div
+      className="card justify-content-md-center shadow"
+      style={{ width: "25rem" }}
+    >
       <img src={person.photo} className="card-img-top mg-fluid" alt="person" />
-      <div className="card-body">
+      <div className="card-body bg-secondary bg-opacity-10">
         <h5 className="card-title">{person.name}</h5>
 
         <p className="card-text">
