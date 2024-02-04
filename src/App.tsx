@@ -9,17 +9,17 @@ import ContactForm from "./components/ContactForm";
 
 function App() {
   const person = {
-    name: "Mahmoud Al Jarad",
+    name: "Vorname Name",
     age: 29,
     job: "Software Developer & Web Developer werde ich sein",
-    photo: "./myfoto.jpeg",
-    uni: "Hochschule Trier",
+    photo: "./foto.jpeg",
+    uni: "Universität XXXXX",
     link: "https://github.com/mahmoudjd",
-    mail: "mahmoudjd452@gmail.com",
-    facebook: "https://www.facebook.com/Mahmoud Jd",
-    instagram: "https://www.instagram.com/mahmoudaljarad",
+    mail: "xyz@gmail.de",
+    facebook: "https://www.facebook.com",
+    instagram: "https://www.instagram.com",
     information:
-      "ich studiere Informatik an der Hochschule Trier und stehe kurz vor dem Abschluss. Das letzte fehlende Puzzlestück für meinen erfolgreichen Abschluss ist lediglich meine Abschlussarbeit.",
+      "ich studiere Informatik an der Univerität XXXXX und stehe kurz vor dem Abschluss.",
   };
 
   const projects = [

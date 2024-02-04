@@ -9,7 +9,11 @@ interface Person {
   age: number;
 }
 
-const Card = ({ person }: { person: Person }) => {
+type Props = {
+  person: Person;
+};
+
+const Card = ({ person }: Props) => {
   return (
     <div
       className="card justify-content-md-center shadow"

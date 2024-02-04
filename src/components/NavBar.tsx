@@ -10,11 +10,11 @@ function NavBar() {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img
-            src="myfoto.jpeg"
+            src="./foto.jpeg"
             alt="picture of person"
             className="me-2 rounded-circle"
-            width="30"
-            height="30"
+            width="35"
+            height="35"
           />
           <div>
             <h1 className="h6 mb-0 lh-1">Mahmoud Jd</h1>
