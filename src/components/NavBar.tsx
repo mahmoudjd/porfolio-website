@@ -17,7 +17,7 @@ function NavBar() {
             height="35"
           />
           <div>
-            <h1 className="h6 mb-0 lh-1">Mahmoud Jd</h1>
+            <h1 className="h6 mb-0 lh-1">M-Jd</h1>
           </div>
         </a>
         <button
