@@ -4,7 +4,7 @@ interface Props {
 
 const ListSkills = ({ skills }: Props) => {
   return (
-    <div style={{ maxWidth: "25rem" }}>
+    <div style={{ maxWidth: "28rem" }}>
       <h1 className="h5"> Skills: </h1>
       <ul className="list-group list-group-flush shadow">
         {skills.map((item, index) => (

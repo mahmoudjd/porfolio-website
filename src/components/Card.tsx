@@ -17,7 +17,7 @@ const Card = ({ person }: Props) => {
   return (
     <div
       className="card justify-content-md-center shadow"
-      style={{ width: "25rem" }}
+      style={{ width: "28rem" }}
     >
       <img src={person.photo} className="card-img-top mg-fluid" alt="person" />
       <div className="card-body bg-secondary bg-opacity-10">
