@@ -26,7 +26,7 @@ export const projects = [
       "Less",
       "Express.Js",
       "MongoDB",
-      "REST-API",
+      "RESTful-APIs",
     ],
   },
   {
@@ -34,7 +34,7 @@ export const projects = [
     description:
       "Diese Anwendung habe ich gemacht, um React mit Bootstrap zu lernen und mein Kenntnis im Bereich Webentwicklung zu vertiefen. " +
       "In diesem Projekt habe ich Informationen über mich gelegt. Innerhalb meines Lernen von React und Bootstrap aktualisiere ich dieses Projekt.",
-    technologies: ["React.Js", "JavaScript", "HTML", "Bootstrap", "TypeScrip"],
+    technologies: ["React.Js", "JavaScript", "HTML", "Bootstrap", "TypeScript"],
   },
   {
     title: "Mosaic-Generator",
@@ -42,6 +42,21 @@ export const projects = [
       "Durch dieses Projekt können wunderschöne Fotomosaiken mit Python-program erstellt werden, das eine Sammlung von Bildkacheln verwendet." +
       " Das Program nimmt ein Zielbild, eine Gruppe von Bildkacheln und generiert ein Mosaik, bei dem jedes Pixel des Zielbilds durch die nächstgelegene Kachel ersetzt wird.",
     technologies: ["Python", "Numpy", "PySimpleGUI"],
+  },
+  {
+    title: "ToDo-List full-stack",
+    description:
+      "Eine Todo-Liste App ist eine Anwendung, die Benutzern ermöglicht, ihre Aufgaben zu verwalten, zu organisieren und im Auge zu behalten. Im Wesentlichen dient sie dazu, die täglichen Aktivitäten zu strukturieren und sicherzustellen, dass wichtige Aufgaben nicht vergessen werden.",
+    technologies: [
+      "Node.Js",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Bootstrap",
+      "Express.Js",
+      "MongoDB",
+      "RESTful-APIs",
+    ],
   },
 ];
 
